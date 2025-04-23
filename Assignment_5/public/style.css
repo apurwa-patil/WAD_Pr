@@ -1,0 +1,90 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #343a40;
+  padding: 1rem;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.8rem;
+}
+
+.navbar .nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar .nav-link.active {
+  color: #ff5733;
+}
+
+#movieCarousel .carousel-inner img {
+  height: 400px;
+  object-fit: cover;
+}
+
+#movieCarousel {
+  height: 400px;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+  overflow: hidden;
+}
+
+.card .card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card .btn {
+  background-color: #ff5733;
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+      padding: 1rem;
+  }
+
+  .card-title {
+      font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar .navbar-brand {
+      font-size: 1.5rem;
+  }
+}
